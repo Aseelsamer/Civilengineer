@@ -32,16 +32,16 @@ function aseel() {
 
     function school() {
         //input
-        var grade = prompt('Please enter your average in percentage?');
-        var grade;
+        var major = prompt('Please enter your major?');
+        var major;
 
         //processing
-        if(grade>70){
-            alert('GOOD!');
-       }else if (grade==80) {
-            alert('VERY GOOD!');
-       }else if (grade<90){
-           alert('EXCELLENT!');
+        if(major==Construction managment ){
+            alert('YOU WILL ENJOY THIS MAJOR WITH US ');
+       }else if (major==Geotichnical enginneer) {
+            alert('HOPE YOU FIND US HELPFUL!');
+       }else if (major==none){
+           alert('YOU MAY BE NOT INTERESTED');
        }
 
        //output

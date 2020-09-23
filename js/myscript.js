@@ -51,7 +51,7 @@ function aseel() {
     }
 
 school();
-//console.log(grade);
+//console.log(major);
 
 
 

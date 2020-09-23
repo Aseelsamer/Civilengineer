@@ -34,31 +34,23 @@ aseel();
      function school(){
          //input
          var major = prompt('What is your major?');
-var major;      
-
-     while(major !=="Construction Managment" && major!=="Geotechnical engineer");
-       major = prompt('What is your major?');
-
-       var numberOfImages = prompt('how many image would you like to see?');
-       for (var i =1; i<= numberOfImages; i++) {
-           if (major == 'Construction Managment'){
-           major = major+'<img src="//www.exploreinsiders.com/wp-content/uploads/2020/06/construction-project-management.png">'; 
-       } else if (major == 'Geotechnical engineer') {
-           major = major + '<img src=""https://cdn.leverageedu.com/blog/wp-content/uploads/2020/01/09182020/Geotechnical-Engineering.png">';
-       }
-
+        var subject;        
+    
          //processing
 
-         if(major == 'Construction Managment'){
-                   alert('you will gain alot of informations');
-         } else if (major =='Geotechnical engineer'){
-                   alert('you will enjoy our courses in this field');
-                }else{
-                    alert('It is an Engineer website')
-                }
-                document.write("<h2>"+major+"</h2>")
+     while(major !=='Construction Managment' && major !=='Geaotichnical engineer'){
+         var major = prompt('what is your major?');
+
      }
 
+     if(major =="Construction Managment") {
+         subject='<img src="https://i1.pngguru.com/preview/153/990/376/home-logo-construction-company-business-building-business-cards-general-contractor-construction-management-png-clipart.jpg">'
+     }else if (major == "Geaotichnical engineer"){
+         subject = '<img src="https://img2.pngio.com/faculty-of-civil-engineering-and-built-environment-uthm-geotechnical-engineering-png-900_431.png">'
+     }
+
+     document.write('<h3>'+subject+'</h3>');
+     }
      
      school();
  

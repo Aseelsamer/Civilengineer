@@ -5,7 +5,6 @@ console.log(today);
 
 var name = prompt('enter your name please');
 
-
 function aseel() {
     //input 
     var year = prompt('year of graduation');
@@ -26,33 +25,45 @@ function aseel() {
     document.write('<h2>Welcome everyone</h2>');
 
 }
+aseel();
 
-    aseel();
+// var major1 = prompt('enter your major?');
+
     //console.log(year);
 
-    function school() {
-        //input
-        var major = prompt('Please enter your major?');
-        var major;
+     function school(){
+         //input
+         var major = prompt('What is your major?');
+var major;        
+     while(major !=="Construction Managment" && major!=="Geotechnical engineer");
+       major = prompt('What is your major?');
 
-        //processing
-        if(major==Construction managment ){
-            alert('YOU WILL ENJOY THIS MAJOR WITH US ');
-       }else if (major==Geotichnical enginneer) {
-            alert('HOPE YOU FIND US HELPFUL!');
-       }else if (major==none){
-           alert('YOU MAY BE NOT INTERESTED');
+       var numberOfImages = prompt('how many image would you like to see?');
+       for (var i =1; i<= numberOfImages; i++) {
+           if (major == 'Construction Managment')
+           major = major+'<img src="//www.exploreinsiders.com/wp-content/uploads/2020/06/construction-project-management.png">'; 
+       } else if (major == 'Geotechnical engineer') {
+           major = major + 
        }
 
-       //output
+         //processing
 
-       document.write('<h3>HOPE TO SEE YOU SOON');
+         if(major == 'Construction Managment'){
+                   alert('you will gain alot of informations');
+         } else if (major =='Geotechnical engineer'){
+                   alert('you will enjoy our courses in this field');
+                }else{
+                    alert('It is an Engineer website')
+                }
+                document.write("<h2>"+major+"</h2>")
+     }
 
-    }
+     
+     school();
+ 
 
-school();
-//console.log(major);
 
+    
 
 
 

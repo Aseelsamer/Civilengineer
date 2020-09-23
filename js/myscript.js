@@ -34,16 +34,17 @@ aseel();
      function school(){
          //input
          var major = prompt('What is your major?');
-var major;        
+var major;      
+
      while(major !=="Construction Managment" && major!=="Geotechnical engineer");
        major = prompt('What is your major?');
 
        var numberOfImages = prompt('how many image would you like to see?');
        for (var i =1; i<= numberOfImages; i++) {
-           if (major == 'Construction Managment')
+           if (major == 'Construction Managment'){
            major = major+'<img src="//www.exploreinsiders.com/wp-content/uploads/2020/06/construction-project-management.png">'; 
        } else if (major == 'Geotechnical engineer') {
-           major = major + 
+           major = major + '<img src=""https://cdn.leverageedu.com/blog/wp-content/uploads/2020/01/09182020/Geotechnical-Engineering.png">';
        }
 
          //processing

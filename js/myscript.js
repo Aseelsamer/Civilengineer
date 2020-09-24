@@ -60,7 +60,7 @@ function school() {
 
     }
 
-   // document.write('<h3>' + subject + '</h3>');
+    document.write('<h3>' + subject + '</h3>');
 }
 
 

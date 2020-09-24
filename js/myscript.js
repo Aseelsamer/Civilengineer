@@ -34,7 +34,7 @@ aseel();
 function school() {
     //input
     var major = prompt('What is your major?');
-    var subject;
+    var subject='';
 
     //processing
 
@@ -49,18 +49,18 @@ function school() {
 
         if (major == "Construction Managment") {
             subject = '<img src="https://i1.pngguru.com/preview/153/990/376/home-logo-construction-company-business-building-business-cards-general-contractor-construction-management-png-clipart.jpg">'
-            document.write('<h3>' + subject + '</h3>');
+        document.write('<h3>' + subject + '</h3>');
         
         } else if (major == "Geaotichnical engineer") {
             subject = '<img src="https://img2.pngio.com/faculty-of-civil-engineering-and-built-environment-uthm-geotechnical-engineering-png-900_431.png">'
-            document.write('<h3>' + subject + '</h3>');
+        document.write('<h3>' + subject + '</h3>');
         
         }
 
 
     }
 
-    document.write('<h3>' + subject + '</h3>');
+    //document.write('<h3>' + subject + '</h3>');
 }
 
 

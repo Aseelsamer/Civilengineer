@@ -43,7 +43,7 @@ function school() {
 
     }
 
-    var numberOfImages = prompt('how many items you want to see?')
+    var numberOfImages = prompt('how many items you want to see?');
 
     for (var i = 1; i <= numberOfImages; i++) {
 
